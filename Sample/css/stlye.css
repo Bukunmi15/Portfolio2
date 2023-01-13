@@ -13,10 +13,11 @@
 body{
     margin: 30px;
     padding: 0px 50px;
+    
 }
 
 .body{
-    
+   
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -28,7 +29,7 @@ body{
     font-size: 40px;
     cursor: pointer;
     color: black;
-}
+    }
 
 
 .body .btn{
@@ -56,6 +57,8 @@ body{
 .body a:hover{
     color: black;
 }
+
+
 /* 
 #hr{
     padding: 15px;
@@ -97,6 +100,7 @@ ul li a:hover{
    
 }
 .link ul li a{
+    justify-content: space-between;
     text-decoration: none;
     font-weight: bold;
     color: darkblue;
@@ -112,6 +116,7 @@ ul{
 .link {
     display: flex;
     padding: 25px 0px 0px 0px ;
+    justify-content: space-between;
     gap: 50px;
 }
 
@@ -184,39 +189,46 @@ ul{
     left: 55%;
 }
 
-
+/* 
 .about{
     font-weight: bold;
     color: black;
     background-color: lightblue;
     
-    
 }
+
 .about p{
     /* margin: 10px 10px;
     padding: 10px 10px; */
-    padding: 20px 20px 20px 20px;
-}
+
 
 .icon{
+    display:flex;
+    
+ 
     width: 200px;
     margin-top: 20px;
 }
 
 .icon img{
-    display: flex;
+    /* display: flex; */
     width: 200px;
-    display:inline-block;
+    /* display:inline-block; */
     justify-content: space-between;
 }
 
 .icons{
-    width: 300px;
-    display: flex;
     text-decoration: none;
     color: black;
-    justify-content: space-between;
+    display: flex;
+    /* margin-left: 626px; */
+    padding: 0px 0px 0px 0px ;
+    gap: 20px;
 }
+
 .icons i{
-    margin-left: 170px;
+    font-size: 30px;
+    /* bottom: 30px;
+    padding: 6px;
+    margin-bottom: 6px; */
 }
