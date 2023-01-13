@@ -3,67 +3,138 @@
     padding: 0px;
 }
 
-.main{ 
-    background: url(./../images/background\ 2.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+.main{
+    /* margin: 100%;
+    height: 100vh; */
     position: relative;
     font-family: sans-serif;
 
 }
+body{
+    margin: 30px;
+    padding: 0px 50px;
+}
 
 .body{
-    width: 86%;
+    
     display: flex;
-    margin: auto;
-    padding: 15px 0px;
     text-align: center;
     justify-content: space-between;
 
 }
 
-
-.body .logo{
-    width: 160px;
-    cursor: pointer;
-}
-
-
 .logo{
-    font-size: 30px;
-    margin-top: 10px;
-    padding: -70px;
+    margin-top: 16px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
 }
 
-ul{
-    margin-top: 10px;
-}
 
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 16px;
-}
-
-ul li a{
-    font-size: 16px;
-    font-weight: bold;
+.body .btn{
+    margin-top: 16px;
     text-decoration: none;
-    color: darkblue;
-    transition: 1s ease;
-
+    color: #fff;
+    background-color: rgb(51, 47, 47);
+    margin: 16px 0px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    display: inline-block;
 }
+
+#sub{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    border-radius: 35px;
+    text-decoration: none;
+    
+}
+#sub:hover{
+    background-color: #000;
+    color: #fff;
+}
+.body a:hover{
+    color: black;
+}
+/* 
+#hr{
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+} */
+
+
+/* two lines box  */
+
+.box{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #000;
+    border-right: none;
+    border-left: none;
+    
+}
+
+
+/* ul{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    gap: 50px;
+}
+
+
 
 ul li a:hover{
-    color: rgb(200, 30, 28);
+    color: red;
+}
+
+ */
+.link ul li {
+    list-style-type: none;
+   
+}
+.link ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    transition: 1s ease;
+}
+ul li a:hover{
+    color: red;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.link {
+    display: flex;
+    padding: 25px 0px 0px 0px ;
+    gap: 50px;
+}
+
+
+
+/* .line{
+    height: 20px;
+    width: 1px ;
+    background-color: #000;
+   
+} */
+.content{
+    padding: 25px 50px;
+    
 }
 
 .info{
-    margin-left: 7%;
-    padding: 6%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 
 .info h1{
@@ -72,28 +143,80 @@ ul li a:hover{
 }
 
 .info h3{
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
-    line-height: 24px;
+    line-height: 23px;
 }
 
+
+ 
 .info span{
-    color: purple;
+    color: darkblue;
 }
 
-.info a{
+.info em{
+    color:  red;
+}
+
+
+/* 
+.image img{
+    position: absolute;
+    height: 320px;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0px;
+    padding: 0px 0px 25px;
+   
+} */
+
+
+.image img{
+    width: 300px;
+   
+}
+
+.image .boy{
+    transition: left 2s ease;
+}
+
+.image .boy{
+    left: 55%;
+}
+
+
+.about{
+    font-weight: bold;
+    color: black;
+    background-color: lightblue;
+    
+    
+}
+.about p{
+    /* margin: 10px 10px;
+    padding: 10px 10px; */
+    padding: 20px 20px 20px 20px;
+}
+
+.icon{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.icon img{
+    display: flex;
+    width: 200px;
+    display:inline-block;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 300px;
+    display: flex;
     text-decoration: none;
-    color: #fff;
-    background-color: black;
-    margin: 12px 0px;
-    padding: 10px 26px;
-    border-radius: 30px;
-    display: inline-block;
-
+    color: black;
+    justify-content: space-between;
 }
-
-.info a:hover{
-    background-color: purple;
+.icons i{
+    margin-left: 170px;
 }
-
-
